@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -49,6 +49,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'Template/index2';
+$route['default_controller'] = 'Login/logout';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+$route['Home'] = 'Mikrotik_Dasboard/Home';
+$route['awal'] = 'Login/logout';
+// $route['Firewall'] = 'Mikrotik_Dasboard/Firewall';
+// $route['Firewall-Tambah'] = 'Mikrotik_Dasboard/Firewall/Tambahblokir';
+$route['profile'] = 'Mikrotik_Dasboard/Profile';
+$route['mahasiswa'] = 'Mikrotik_Dasboard/Mahasiswa';
+$route['userhotspot'] = 'Mikrotik_Dasboard/Userhotspot';

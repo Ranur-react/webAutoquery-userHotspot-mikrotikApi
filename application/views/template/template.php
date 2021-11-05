@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Queue System</title>
+  <title>Mikrotik FirewallX</title>
 
 
   <!-- Custom fonts for this template-->
@@ -20,6 +20,8 @@
   <link href="<?php echo base_url('asset/') ?>css/sb-admin-2.min.css" rel="stylesheet">
   <!-- Custom styles for this page -->
   <link href="<?php echo base_url('asset/') ?>vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+  <script src="<?php echo base_url('asset/') ?>vendor/jquery/jquery.min.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -156,7 +158,7 @@
             <span aria-hidden="true">×</span>
           </button>
         </div>
-        <div class="modal-body">You're must 've a Special Account to Login as Administrator<br> by www.antrianrsektp.site  </div>
+        <div class="modal-body">You're must 've a Special Account to Login as Administrator<br> by BabyGroooT  </div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
           <a class="btn btn-primary" href="<?php echo site_url('Login') ?>">Login</a>
@@ -170,7 +172,6 @@
 
 <!-- custome for this Script template -->
  <!-- Bootstrap core JavaScript-->
-  <script src="<?php echo base_url('asset/') ?>vendor/jquery/jquery.min.js"></script>
   <script src="<?php echo base_url('asset/') ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Core plugin JavaScript-->
