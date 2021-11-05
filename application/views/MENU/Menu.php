@@ -68,7 +68,7 @@
      </a>
      <div id="collapseThre" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
        <div class="bg-white py-2 collapse-inner rounded">
-         <a class="collapse-item" href="<?php echo site_url('Monitoring'); ?>">
+         <a class="collapse-item" href="<?php echo site_url('Voucerhotspot'); ?>">
            <i class="fas fa-fw fa-filter"></i>
            Print Rangkap</a>
          <a class="collapse-item" href="<?php echo site_url('Monitoring'); ?>">

@@ -59,3 +59,5 @@ $route['awal'] = 'Login/logout';
 $route['profile'] = 'Mikrotik_Dasboard/Profile';
 $route['mahasiswa'] = 'Mikrotik_Dasboard/Mahasiswa';
 $route['userhotspot'] = 'Mikrotik_Dasboard/Userhotspot';
+$route['Voucerhotspot'] = 'Mikrotik_Dasboard/Printvoucer';
+$route['PrintVoucerhotspot'] = 'Mikrotik_Dasboard/Printvoucer/cetakVoucer';
