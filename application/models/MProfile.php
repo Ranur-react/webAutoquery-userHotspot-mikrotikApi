@@ -12,6 +12,10 @@ class MProfile extends CI_Model
 	{
 		return $this->db->query("SELECT*FROM tb_profile")->result_array();
 	}
+	function get($id)
+	{
+		return $this->db->query("SELECT*FROM tb_profile where id='$id'")->result();
+	}
 	public function insert($id, $nama, $jumlah, $masa, $kecepatan)
 	{
 	
