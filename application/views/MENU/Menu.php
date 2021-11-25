@@ -61,7 +61,7 @@
        </div>
      </div>
    </li>
-   <li class="nav-item">
+   <!-- <li class="nav-item">
      <a class="nav-link collapsed" href="<?php echo site_url('Monitoring'); ?>" data-toggle="collapse" data-target="#collapseThre" aria-expanded="true" aria-controls="collapseTwo">
        <i class="fas fa-fw fa-server"></i>
        <span>Voucer Print</span>
@@ -76,7 +76,7 @@
            Print Satu Persatu</a>
        </div>
      </div>
-   </li>
+   </li> -->
 
 
    <!-- Nav Item - Pages Collapse Menu -->
