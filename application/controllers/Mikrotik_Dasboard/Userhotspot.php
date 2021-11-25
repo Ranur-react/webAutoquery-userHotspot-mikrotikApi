@@ -40,6 +40,22 @@ class Userhotspot extends CI_Controller
   // public function tambah()
   // {
   // }
+	public function hapus()
+	{
+		$id = $_GET['id'];
+		$this->removeHotspotUser($id);
+		$this->MUserspot->delete($id);
+		redirect(site_url('userhotspot'));
+	}
+	public function removeHotspotUser($i)
+	{
+		$data = $this->DbLogin->show();
+		$Code['command'] = "/ip/hotspot/user/remove"; //perntah
+		$Code['ArrayValue'] = array(         //value dari perintah
+			'.id' => $i,
+		);;
+		$this->mikapi->write($Code, $data);
+	}
 	public function tambah()
 	{
 		$post = $this->input->post();

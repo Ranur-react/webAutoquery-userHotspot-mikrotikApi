@@ -16,4 +16,8 @@ class MUserspot extends CI_Model
 	{
 		$this->db->query("INSERT INTO `tb_userhotspot` (`id_hotspot`, `username`, `password`, `profile_id`) VALUES ('$id', '$nama', '$paswd', '$profile_id');");
 	}
+	public function delete($id)
+	{
+		$this->db->query("DELETE FROM `tb_userhotspot` WHERE `id_hotspot` = '$id'; ");
+	}
 }

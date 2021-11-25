@@ -94,10 +94,10 @@
 								<td><?= $data['jumlah_user']; ?> users</td>
 								<td><?= $data['masa_aktif']; ?> day</td>
 								<td>
-									<a href="#" class="btn btn-success btn-circle">
+									<!-- <a href="#" class="btn btn-success btn-circle">
 										<i class="fas fa-edit"></i>
-									</a>
-									<a href="#" class="btn btn-danger btn-circle">
+									</a> -->
+									<a href="<?= site_url('userhotspot/hapus') . '?id=' . $data['id_hotspot']; ?>" class="btn btn-danger btn-circle">
 										<i class="fas fa-trash"></i>
 									</a>
 
