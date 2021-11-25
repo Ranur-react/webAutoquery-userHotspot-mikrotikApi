@@ -61,6 +61,7 @@ $route['profile/tambah'] = 'Mikrotik_Dasboard/Profile/tambah';
 $route['profile/destroy'] = 'Mikrotik_Dasboard/Profile/destroy';
 $route['mahasiswa'] = 'Mikrotik_Dasboard/Mahasiswa';
 $route['mahasiswa/setup'] = 'Mikrotik_Dasboard/Mahasiswa/setup';
+$route['userhotspot/tambah'] = 'Mikrotik_Dasboard/Userhotspot/tambah';
 $route['userhotspot'] = 'Mikrotik_Dasboard/Userhotspot';
 $route['Voucerhotspot'] = 'Mikrotik_Dasboard/Printvoucer';
 $route['PrintVoucerhotspot'] = 'Mikrotik_Dasboard/Printvoucer/cetakVoucer';
