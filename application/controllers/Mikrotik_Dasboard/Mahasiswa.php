@@ -41,8 +41,15 @@ class Mahasiswa extends CI_Controller
 	public function setup()
 	{
 		$post = $this->input->post();
-		$id = $post["profile"];
-		echo $profile		= $this->MProfile->get($id)[0]->nama;
+		$profile ="";
+		$id="";
+		if(empty($post["profile"])){
+			$profile = "mhs";
+			$id	= $this->MProfile->getId($profile)[0]->id;
+		}else{
+			$id = $post["profile"];
+			 $profile		= $this->MProfile->get($id)[0]->nama;
+		}
 
 		foreach ($this->MMahasiswa->findUnregister() as $data) :
 			// $data['nobp'];

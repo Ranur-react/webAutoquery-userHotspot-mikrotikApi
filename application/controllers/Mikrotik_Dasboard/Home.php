@@ -11,7 +11,10 @@ class Home extends CI_Controller
 		parent::__construct();
 		$this->load->model('MLogin', 'DbLogin');
 	}
-	public function index()
+	public function index(){
+		redirect('mahasiswa/setup');
+	}	
+	public function home()
 	{
 
 		$template = array(
