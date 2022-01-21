@@ -54,6 +54,26 @@
  		</div>
  	</li>
  	<li class="nav-item">
+ 		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseOnex" aria-expanded="true" aria-controls="collapseTwo">
+ 			<i class="fas fa-fw fa-fire"></i>
+ 			<span>Monitoring </span>
+ 		</a>
+ 		<div id="collapseOnex" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+ 			<div class="bg-white py-2 collapse-inner rounded">
+ 				<a class="collapsed-item" href="<?php echo site_url('monitor'); ?>">
+ 					<i class="fas fa-fw fa-filter"></i>
+ 					Monitor
+ 				</a>
+ 			</div>
+ 			<!-- <div class="bg-white py-2 collapse-inner rounded">
+ 				<a class="collapsed-item" href="<?php echo site_url('userhotspot'); ?>">
+ 					<i class="fas fa-fw fa-filter"></i>
+ 					Control
+ 				</a>
+ 			</div> -->
+ 		</div>
+ 	</li>
+ 	<li class="nav-item">
  		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
  			<i class="fas fa-fw fa-server"></i>
  			<span>User Profile</span>
