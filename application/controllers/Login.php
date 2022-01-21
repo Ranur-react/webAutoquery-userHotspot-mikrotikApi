@@ -86,7 +86,7 @@ public function index()
 	}
 	public function UpdatePasswordUserHotspot($id,$paswd){
 		$data = $this->DbLogin->show();
-		$Code['command'] = "/ip/hotspot/user/edit"; //perntah
+		$Code['command'] = "/ip/hotspot/user/set"; //perntah
 		$Code['ArrayValue'] = array(         //value dari perintah
 			'.id' => $id,
 			'password' => $paswd,
